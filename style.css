@@ -1,0 +1,143 @@
+body{
+      background-image: url(/imagens/job562-nunoon-10.jpg);
+      background-size: cover;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .conteinerPainel{
+        display: flex;
+        justify-content: center;
+    }
+
+    a.logo{
+      position: absolute;
+      left: 50px;
+      top: 30px;
+    }
+
+    .blocoPainel {
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo{
+        text-align: center;
+        margin-top: 18%;
+    }
+
+    button#btnAdicionar {
+        color: #ffffff;
+        background-color: #6e9167;
+        border: none;
+        box-shadow: none;
+        margin: 10px;
+        padding: 7px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+
+    button#btnAdicionar:hover{
+        filter:brightness(0.95);
+    }
+
+    button#btnConcluidos{
+        color: #ffffff;
+        background-color: #6e9167;
+        border: none;
+        box-shadow: none;
+        margin: 10px;
+        padding: 7px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button#btnConcluidos:hover{
+        filter:brightness(0.95);
+    }
+
+    .tabela img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .btnRemover {
+        background-color: #ff4d4f;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+        .btnRemover:hover {
+        background-color: #d9363e;
+    }
+
+    .tabela {
+        width: 80%;
+        table-layout: fixed;
+        margin-bottom: 50px;
+        background-color: #ececec;
+        border-radius: 5px;
+    }
+
+    .tabela th:nth-child(1),
+    .tabela td:nth-child(1) {
+        width: 80px;
+        text-align: center;
+    }
+
+    .tabela th:nth-child(2),
+    .tabela td:nth-child(2) {
+        width: 100px;
+        text-align: center;
+    }
+
+    .tabela th:nth-child(3),
+    .tabela td:nth-child(3) {
+        width: 200px;
+        text-align: center;
+    }
+
+    .tabela th:nth-child(4),
+    .tabela td:nth-child(4) {
+        width: 100px;
+        text-align: center;
+    }
+
+    .tabela th:nth-child(5),
+    .tabela td:nth-child(5) {
+        width: 150px;
+        text-align: center;
+    }
+
+    .tabela th:nth-child(6),
+    .tabela td:nth-child(6) {
+        width: 110px;
+        text-align: center;
+    }
+
+    .tabela th:nth-child(7), .tabela td:nth-child(7){
+        width: 110px;
+        text-align: center;
+    }
+
+    .patrocinador{
+      text-align: center;
+      margin-top: 50px;
+      background-color: #ececec;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    form#formAtendimento input {
+        height: 25px;
+        border: none;
+        border-radius: 5px;
+    }

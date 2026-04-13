@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Atendimento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="conteinerPainel">
+    
+      <div class="blocoPainel">
+
+        <a class="logo" href="https://konigbrasil.com.br/"><img src="/imagens/konig-logo.jpg" alt=""></a>
+
+        <h1 class="titulo">Atendimento de Clientes</h1>
+
+        <!-- FORM -->
+        <form class="formulario" id="formAtendimento">
+          <input type="text" id="nomeTutor" placeholder="Nome do tutor">
+          <input type="text" id="telefoneTutor" placeholder="Telefone" maxlength="15">
+          <button type="submit" id="btnAdicionar">Adicionar cliente</button>
+        </form>
+
+        <!-- TABELA PRINCIPAL -->
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>Foto</th>
+              <th>Raça</th>
+              <th>Temperamento</th>
+              <th>Idade</th>
+              <th>Medicamento</th>
+              <th>Tutor</th>
+              <th>Telefone</th>
+              <th>Ação</th>
+            </tr>
+          </thead>
+          <tbody id="tabelaBody"></tbody>
+        </table>
+
+        <button id="btnConcluidos">Atualizar atendimentos concluídos</button>
+
+        <h2>Atendimentos concluídos</h2>
+
+        <!-- TABELA CONCLUÍDOS -->
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>Foto</th>
+              <th>Raça</th>
+              <th>Temperamento</th>
+              <th>Idade</th>
+              <th>Medicamento</th>
+              <th>Tutor</th>
+              <th>Telefone</th>
+            </tr>
+          </thead>
+          <tbody id="tabelaConcluidos"></tbody>
+        </table>
+        <div class="patrocinador">Amor, Cuidado e Proteção em cada atendimento, conheça a linha completa de produtos <strong><a href="https://konigbrasil.com.br/">König</a></strong></div>
+      </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
