@@ -51,3 +51,29 @@ const medicamentos = [
   { nome: "Basken Suspensão 20ml" },
   ...
 ];
+- Um medicamento é selecionado aleatoriamente para cada atendimento.
+
+----
+
+### ✔️ Finalizar Atendimento
+
+Na tabela de atendimentos, cada linha possui um botão:
+
+"Finalizar"
+
+Ao clicar:
+
+- O atendimento é removido da tabela principal
+- O atributo "atendimentoFinalizado" é alterado para: true
+- O dado atualizado permanece salvo no localStorage
+
+---
+
+### 🔄 Atualizar Atendimentos Concluídos
+
+Ao clicar no botão "Atualizar atendimentos concluídos":
+
+- sistema busca no localStorage
+- Filtra apenas os atendimentos com:
+  atendimentoFinalizado === true
+- Exibe esses dados na tabela de atendimentos concluídos
